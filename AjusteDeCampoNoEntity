@@ -3,4 +3,6 @@
 modelBuilder.Entity<Classe>().Property(e => e.Propriedade)
 	.HasCoumnType("varchar(tamanho)")
 	.IsRequired();
-
+	
+Ver vídeo abaixo para criar a classe DbInitializer	
+https://youtu.be/UQMkoTaVbM0?t=1778
