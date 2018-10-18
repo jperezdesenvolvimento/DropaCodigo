@@ -1,0 +1,6 @@
+//Dentro do método OnModelCreating onde modelBuilder é o parametro que recebemos neste método!
+
+modelBuilder.Entity<Classe>().Property(e => e.Propriedade)
+	.HasCoumnType("varchar(tamanho)")
+	.IsRequired();
+
